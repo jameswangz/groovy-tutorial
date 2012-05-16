@@ -1,3 +1,5 @@
+package evaluator;
+
 import groovy.util.Eval;
 import org.junit.Test;
 import static junit.framework.Assert.*;

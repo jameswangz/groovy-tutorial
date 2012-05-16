@@ -1,10 +1,12 @@
-import test.Foo
+package evaluator
+
+import evaluator.Foo
 
 Random random = new Random()
 foo = new Foo()
 
 ['name', 'description'].each { field ->
-    def value = 'hello test'
+    def value = 'hello evaluator'
     println Eval.x(foo, "x.${field} = '${value}'")
 }
 
