@@ -4,6 +4,7 @@ import groovy.util.BuilderSupport;
 
 import java.util.Map;
 
+
 /**
  * @author James Wang
  */
@@ -12,18 +13,24 @@ public class DepartmentBuilder extends BuilderSupport {
     @Override
     protected void setParent(Object parent, Object child) {
         if (Department.class.isInstance(parent)) {
-            ((Department) parent).addTeam((Team) child);
-            return;
+            if (Team.class.isInstance(child)) {
+                ((Department) parent).addTeam((Team) child);
+                return;
+            }
         }
         if (Team.class.isInstance(parent)) {
-            ((Team) parent).addMember((Member) child);
-            return;
+            if (Member.class.isInstance(child)) {
+                ((Team) parent).addMember((Member) child);
+                return;
+            }
         }
-        throw new UnsupportedOperationException("not yet implemented -> setParent (parent " + parent + ", child " + child + ")");
     }
 
     @Override
     protected Object createNode(Object name) {
+        if ("Location".equals(name)) {
+            return new Location();
+        }
         throw new UnsupportedOperationException("not yet implemented -> createNode (name " + name + ")");
     }
 
@@ -37,6 +44,17 @@ public class DepartmentBuilder extends BuilderSupport {
 
     @Override
     protected Object createNode(Object name, Map attributes) {
+        if ("_".equals(name)) {
+            Object current = getCurrent();
+
+            for (Object attribute : attributes.entrySet()) {
+                String key = (String) ((Map.Entry) attribute).getKey();
+                Object value = ((Map.Entry) attribute).getValue();
+                ReflectionUtils.setFieldValue(current, key, value);
+            }
+
+            return null;
+        }
         throw new UnsupportedOperationException("not yet implemented -> createNode (name " + name + ", attributes " + attributes + ")");
     }
 

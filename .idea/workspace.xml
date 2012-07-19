@@ -20,19 +20,6 @@
   </component>
   <component name="DebuggerManager">
     <line_breakpoints>
-      <breakpoint url="jar://D:/downloads/groovy-src-1.7.10.zip!/groovy-1.7.10/src/main/groovy/util/BuilderSupport.java" line="62" class="groovy.util.BuilderSupport" package="groovy.util">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="false" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
       <breakpoint url="jar://D:/downloads/groovy-src-1.7.10.zip!/groovy-1.7.10/src/main/groovy/util/NodeBuilder.java" line="49" class="groovy.util.NodeBuilder" package="groovy.util">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
@@ -98,7 +85,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="jar://D:/downloads/groovy-src-1.7.10.zip!/groovy-1.7.10/src/main/groovy/util/BuilderSupport.java" line="132" class="groovy.util.BuilderSupport" package="groovy.util">
+      <breakpoint url="file://$PROJECT_DIR$/src/evaluator/TestApp2.java" line="9" class="evaluator.TestApp2" package="evaluator">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -111,7 +98,33 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="jar://D:/downloads/groovy-src-1.7.10.zip!/groovy-1.7.10/src/main/groovy/util/BuilderSupport.java" line="136" class="groovy.util.BuilderSupport" package="groovy.util">
+      <breakpoint url="file://$PROJECT_DIR$/src/builder/DepartmentBuilder.java" line="57" class="builder.DepartmentBuilder" package="builder">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/test/builder/DepartmentBuilderTest.groovy" line="25" class="DepartmentBuilderTest.groovy" package="">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="jar://D:/downloads/groovy-src-1.7.10.zip!/groovy-1.7.10/src/main/groovy/util/BuilderSupport.java" line="58" class="groovy.util.BuilderSupport" package="groovy.util">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -125,19 +138,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
       <breakpoint url="jar://D:/downloads/groovy-src-1.7.10.zip!/groovy-1.7.10/src/main/groovy/util/BuilderSupport.java" line="67" class="groovy.util.BuilderSupport" package="groovy.util">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="false" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="jar://D:/downloads/groovy-src-1.7.10.zip!/groovy-1.7.10/src/main/groovy/util/BuilderSupport.java" line="143" class="groovy.util.BuilderSupport" package="groovy.util">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -191,82 +191,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BuilderSupport.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://D:/downloads/groovy-src-1.7.10.zip!/groovy-1.7.10/src/main/groovy/util/BuilderSupport.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="155" column="79" selection-start="5730" selection-end="5730" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MetaClassImpl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://D:/downloads/groovy-src-1.7.10.zip!/groovy-1.7.10/src/main/groovy/lang/MetaClassImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="885" column="0" selection-start="37794" selection-end="37794" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PogoMetaClassSite.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://D:/downloads/groovy-src-1.7.10.zip!/groovy-1.7.10/src/main/org/codehaus/groovy/runtime/callsite/PogoMetaClassSite.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="0" selection-start="2504" selection-end="2504" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CallSiteArray.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://D:/downloads/groovy-src-1.7.10.zip!/groovy-1.7.10/src/main/org/codehaus/groovy/runtime/callsite/CallSiteArray.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="0" selection-start="1636" selection-end="1636" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractCallSite.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://D:/downloads/groovy-src-1.7.10.zip!/groovy-1.7.10/src/main/org/codehaus/groovy/runtime/callsite/AbstractCallSite.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="148" column="0" selection-start="4602" selection-end="4602" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DepartmentBuilderTest.groovy" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="DepartmentBuilderTest.groovy" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/builder/DepartmentBuilderTest.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="241" selection-end="241" vertical-scroll-proportion="0.0">
+            <state line="37" column="60" selection-start="1163" selection-end="1163" vertical-scroll-proportion="0.37542662">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FooTest.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/evaluator/FooTest.groovy">
+      <file leaf-file-name="DepartmentBuilder.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/builder/DepartmentBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Evaluator.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/evaluator/Evaluator.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="29" selection-start="222" selection-end="222" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EvalGroovyTest.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/evaluator/EvalGroovyTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="36" selection-start="290" selection-end="290" vertical-scroll-proportion="0.5956679">
+            <state line="25" column="9" selection-start="648" selection-end="648" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -274,10 +211,75 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Foo.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/evaluator/Foo.java">
+      <file leaf-file-name="ReflectionUtils.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/builder/ReflectionUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="16" selection-start="99" selection-end="99" vertical-scroll-proportion="0.0">
+            <state line="22" column="4" selection-start="895" selection-end="895" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReflectionUtils.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://D:/java/jdk1.6.0_34/src.zip!/java/beans/ReflectionUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="6" selection-start="676" selection-end="676" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Expression.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://D:/java/jdk1.6.0_34/src.zip!/java/beans/Expression.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="68" selection-start="791" selection-end="791" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PropertyEditor.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://D:/java/jdk1.6.0_34/src.zip!/java/beans/PropertyEditor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="48" column="51" selection-start="1924" selection-end="1924" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Introspector.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://D:/java/jdk1.6.0_34/src.zip!/java/beans/Introspector.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="82" column="13" selection-start="3373" selection-end="3373" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Location.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/builder/Location.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="22" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Department.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/builder/Department.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="36" column="59" selection-start="724" selection-end="724" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BuilderSupport.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://D:/downloads/groovy-src-1.7.10.zip!/groovy-1.7.10/src/main/groovy/util/BuilderSupport.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="100" column="93" selection-start="3507" selection-end="3507" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -297,22 +299,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/test/Evaluator.groovy" />
-        <option value="$PROJECT_DIR$/test/FooTest.groovy" />
-        <option value="$PROJECT_DIR$/test/builder/CarBuilderTest.groovy" />
-        <option value="$PROJECT_DIR$/test/builder/DepartmentBuilder.groovy" />
         <option value="$PROJECT_DIR$/src/test/DepartmentBuilder.groovy" />
         <option value="$PROJECT_DIR$/src/builder/DepartmentBuilder.groovy" />
         <option value="$PROJECT_DIR$/test/builder/Department.java" />
         <option value="$PROJECT_DIR$/test/builder/NodeBuilderTest.groovy" />
         <option value="$PROJECT_DIR$/test/builder/Team.java" />
         <option value="$PROJECT_DIR$/test/builder/Member.java" />
-        <option value="$PROJECT_DIR$/src/builder/Department.java" />
         <option value="$PROJECT_DIR$/src/builder/Team.java" />
         <option value="$PROJECT_DIR$/src/builder/Member.java" />
-        <option value="$PROJECT_DIR$/src/builder/DepartmentBuilder.java" />
-        <option value="$PROJECT_DIR$/test/builder/DepartmentBuilderTest.groovy" />
         <option value="$PROJECT_DIR$/src/evaluator/Foo.java" />
+        <option value="$PROJECT_DIR$/src/evaluator/TestApp2.java" />
+        <option value="$PROJECT_DIR$/test/builder/DepartmentBuilderTest2.groovy" />
+        <option value="$PROJECT_DIR$/src/builder/Location.java" />
+        <option value="$PROJECT_DIR$/src/builder/Department.java" />
+        <option value="$PROJECT_DIR$/src/builder/ReflectionUtils.java" />
+        <option value="$PROJECT_DIR$/test/builder/DepartmentBuilderTest.groovy" />
+        <option value="$PROJECT_DIR$/src/builder/DepartmentBuilder.java" />
       </list>
     </option>
   </component>
@@ -372,19 +374,102 @@
       <showLibraryContents />
       <hideEmptyPackages />
       <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
+      <autoscrollToSource ProjectPane="true" />
+      <autoscrollFromSource ProjectPane="true" />
       <sortByType />
     </navigator>
     <panes>
       <pane id="Favorites" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="groovy-tutorial" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="groovy-tutorial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.6 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="groovy-tutorial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.6 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rt.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="groovy-tutorial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.6 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rt.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="groovy-tutorial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.6 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rt.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="beans" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -472,6 +557,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -488,14 +574,20 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="builder" />
       <recent name="test" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\groovy-tutorial\test\builder" />
+    </key>
+    <key name="MoveMembersDialog.RECENTS_KEY">
+      <recent name="builder.ReflectionUtils" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="builder" />
@@ -506,39 +598,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Groovy Script.DepartmentBuilderTest">
-    <configuration default="false" name="FooTest" type="GroovyScriptRunConfiguration" factoryName="Groovy Script" temporary="true">
-      <module name="groovy-tutorial" />
-      <setting name="path" value="$PROJECT_DIR$/test/FooTest.groovy" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="$PROJECT_DIR$/test" />
-      <setting name="debug" value="false" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="EvalGroovyTest.eval" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="groovy-tutorial" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="evaluator" />
-      <option name="MAIN_CLASS_NAME" value="evaluator.EvalGroovyTest" />
-      <option name="METHOD_NAME" value="eval" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
     <configuration default="false" name="Evaluator" type="GroovyScriptRunConfiguration" factoryName="Groovy Script" temporary="true">
       <module name="groovy-tutorial" />
       <setting name="path" value="$PROJECT_DIR$/test/Evaluator.groovy" />
@@ -581,6 +640,39 @@
       </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestApp2" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="evaluator.TestApp2" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="groovy-tutorial" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="52415" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="DepartmentBuilderTest2" type="GroovyScriptRunConfiguration" factoryName="Groovy Script" temporary="true">
+      <module name="groovy-tutorial" />
+      <setting name="path" value="$PROJECT_DIR$/test/builder/DepartmentBuilderTest2.groovy" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="$PROJECT_DIR$/test/builder" />
+      <setting name="debug" value="false" />
+      <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -673,11 +765,11 @@
       </method>
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Groovy Script.FooTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.EvalGroovyTest.eval" />
-      <item index="2" class="java.lang.String" itemvalue="Groovy Script.Evaluator" />
-      <item index="3" class="java.lang.String" itemvalue="Groovy Script.NodeBuilderTest" />
-      <item index="4" class="java.lang.String" itemvalue="Groovy Script.DepartmentBuilderTest" />
+      <item index="0" class="java.lang.String" itemvalue="Groovy Script.Evaluator" />
+      <item index="1" class="java.lang.String" itemvalue="Groovy Script.NodeBuilderTest" />
+      <item index="2" class="java.lang.String" itemvalue="Groovy Script.DepartmentBuilderTest" />
+      <item index="3" class="java.lang.String" itemvalue="Application.TestApp2" />
+      <item index="4" class="java.lang.String" itemvalue="Groovy Script.DepartmentBuilderTest2" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -732,26 +824,26 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1688" height="1014" extended-state="6" />
+    <frame x="1676" y="-4" width="1688" height="1058" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32922733" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39865622" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39759037" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32968238" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2498469" sideWeight="0.6707727" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2498469" sideWeight="0.67141294" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2498469" sideWeight="0.67022413" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32922733" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32858709" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32922733" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2498469" sideWeight="0.67022413" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -802,25 +894,87 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/builder/Department.java">
+    <entry file="file://$PROJECT_DIR$/src/evaluator/TestApp2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="386" selection-end="386" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="11" column="76" selection-start="273" selection-end="273" vertical-scroll-proportion="0.2731377" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/builder/Member.java">
+    <entry file="file://$PROJECT_DIR$/src/evaluator/Foo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="5" selection-start="189" selection-end="189" vertical-scroll-proportion="0.0">
+        <state line="8" column="0" selection-start="99" selection-end="99" vertical-scroll-proportion="0.19864559" />
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files (x86)/Groovy/Groovy-1.7.10/lib/groovy-1.7.10.jar!/groovy/util/BuilderSupport.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="22" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/jdk1.6.0_34/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="322" column="25" selection-start="15709" selection-end="15709" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/builder/Team.java">
+    <entry file="jar://D:/java/jdk1.6.0_34/src.zip!/java/beans/IntrospectionException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="525" selection-end="525" vertical-scroll-proportion="0.0">
+        <state line="19" column="6" selection-start="502" selection-end="502" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/jdk1.6.0_34/src.zip!/java/beans/BeanInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="39" selection-start="1307" selection-end="1307" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/builder/Location.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="22" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/builder/Department.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="59" selection-start="724" selection-end="724" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/jdk1.6.0_34/src.zip!/java/beans/Introspector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="82" column="13" selection-start="3373" selection-end="3373" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/jdk1.6.0_34/src.zip!/java/beans/ReflectionUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="6" selection-start="676" selection-end="676" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/jdk1.6.0_34/src.zip!/java/beans/Expression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="68" selection-start="791" selection-end="791" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/jdk1.6.0_34/src.zip!/java/beans/PropertyEditor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="51" selection-start="1924" selection-end="1924" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/builder/ReflectionUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="4" selection-start="895" selection-end="895" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -829,96 +983,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/builder/DepartmentBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="346" selection-end="346" vertical-scroll-proportion="0.0">
+        <state line="25" column="9" selection-start="648" selection-end="648" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/downloads/groovy-src-1.7.10.zip!/groovy-1.7.10/src/main/groovy/lang/GroovyObjectSupport.java">
+    <entry file="jar://D:/downloads/groovy-src-1.7.10.zip!/groovy-1.7.10/src/main/groovy/util/BuilderSupport.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="0" selection-start="1443" selection-end="1443" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/downloads/groovy-src-1.7.10.zip!/groovy-1.7.10/src/main/org/codehaus/groovy/runtime/metaclass/ClosureMetaClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="346" column="0" selection-start="15098" selection-end="15098" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/downloads/groovy-src-1.7.10.zip!/groovy-1.7.10/src/main/groovy/lang/MetaClassImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="885" column="0" selection-start="37794" selection-end="37794" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/downloads/groovy-src-1.7.10.zip!/groovy-1.7.10/src/main/org/codehaus/groovy/runtime/callsite/PogoMetaClassSite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="0" selection-start="2504" selection-end="2504" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/downloads/groovy-src-1.7.10.zip!/groovy-1.7.10/src/main/org/codehaus/groovy/runtime/callsite/CallSiteArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="0" selection-start="1636" selection-end="1636" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/downloads/groovy-src-1.7.10.zip!/groovy-1.7.10/src/main/org/codehaus/groovy/runtime/callsite/AbstractCallSite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="148" column="0" selection-start="4602" selection-end="4602" vertical-scroll-proportion="0.0">
+        <state line="100" column="93" selection-start="3507" selection-end="3507" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/builder/DepartmentBuilderTest.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="241" selection-end="241" vertical-scroll-proportion="0.0">
+        <state line="37" column="60" selection-start="1163" selection-end="1163" vertical-scroll-proportion="0.37542662">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/downloads/groovy-src-1.7.10.zip!/groovy-1.7.10/src/main/groovy/util/BuilderSupport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="155" column="79" selection-start="5730" selection-end="5730" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/evaluator/FooTest.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/evaluator/Evaluator.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="29" selection-start="222" selection-end="222" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/evaluator/Foo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="16" selection-start="99" selection-end="99" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/evaluator/EvalGroovyTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="36" selection-start="290" selection-end="290" vertical-scroll-proportion="0.5956679">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

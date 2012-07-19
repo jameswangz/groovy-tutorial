@@ -3,6 +3,10 @@ import builder.DepartmentBuilder
 def departmentBuilder = new DepartmentBuilder()
 
 def department = departmentBuilder.department('Foglight Dev', manager : 'Yinghua Qin') {
+    _ location : Location {
+        _ country : 'China'
+        _ city : 'Zhuhai'
+    }
     team('apm', lead : 'Kevin Wang' ) {
         member('Alex Liang')
         member('Paul Zhou')
@@ -21,6 +25,8 @@ def department = departmentBuilder.department('Foglight Dev', manager : 'Yinghua
 println department.dump()
 assert 'Foglight Dev' == department.name
 assert 'Yinghua Qin' == department.manager
+assert 'China' == department.location.country
+assert 'Zhuhai' == department.location.city
 assert 3 == department.teams.size()
 def apmTeam = department.teams[0]
 assert 'apm' == apmTeam.name

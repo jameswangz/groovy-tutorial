@@ -7,7 +7,9 @@ public class Department {
 
     private String name;
     private String manager;
+    private Location location;
     private List<Team> teams = new ArrayList<Team>();
+
 
     public Department(String name, String manager) {
         this.name = name;
@@ -29,5 +31,13 @@ public class Department {
 
     public List<Team> getTeams() {
         return teams;
+    }
+
+    public void setLocation(Location location) {
+        this.location = location;
+    }
+
+    public Location getLocation() {
+        return location;
     }
 }
